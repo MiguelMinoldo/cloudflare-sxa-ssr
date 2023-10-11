@@ -10,7 +10,7 @@ import { componentBuilder } from 'temp/componentBuilder';
 import Layout from 'src/Layout';
 import { GetStaticProps } from 'next';
 import { siteResolver } from 'lib/site-resolver';
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 const Custom404 = (props: SitecorePageProps): JSX.Element => {
   if (!(props && props.layoutData)) {
