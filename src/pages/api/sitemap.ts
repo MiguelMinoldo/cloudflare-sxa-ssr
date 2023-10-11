@@ -7,6 +7,7 @@ import {
 import { getPublicUrl } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import { siteResolver } from 'lib/site-resolver';
 import config from 'temp/config';
+export const runtime = 'edge';
 
 const ABSOLUTE_URL_REGEXP = '^(?:[a-z]+:)?//';
 

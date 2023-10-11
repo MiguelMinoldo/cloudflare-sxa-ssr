@@ -10,6 +10,7 @@ import { componentBuilder } from 'temp/componentBuilder';
 import { GetStaticProps } from 'next';
 import config from 'temp/config';
 import { siteResolver } from 'lib/site-resolver';
+export const runtime = 'edge';
 
 /**
  * Rendered in case if we have 500 error
